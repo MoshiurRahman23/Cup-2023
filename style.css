@@ -1,0 +1,633 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@500&display=swap');
+
+body {
+    margin:0px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/*------------------------Header style start--------------------------------------------------*/
+/*----------------------Style for First Website start-------------------------------------*/
+main{
+   margin: 50px 120px;
+     
+ }
+.header-div{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    border-radius: 30px;
+    width: 100%;
+    height: 500px;
+    position: sticky;
+    background-color:black;
+    display:flex;
+}
+.banner-div{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 50%;
+    height: 500px;
+    position: relative;
+}
+.banner-part1{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 40px;
+    color: white;
+    font-weight: 700;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+h1{
+    margin-top: 90px;
+    position: relative;
+}
+p{
+    position: relative;
+    font-size: 15px;
+    font-weight: 100;
+}
+.live-button{
+    margin: 10px;
+    border:0px;
+    border-radius: 5px;
+    padding: 15px;
+    color: white;
+    background-color: red;
+    width: 120px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+}
+.banner-part2 img{
+    width: 100%;
+    height: 500px;
+}
+
+/*-----------------------Heading style end-----------------------------------------------*/
+.main-container{
+    margin: 50px 0px 0px 0px;
+    padding: 0px;
+    border: 0px;
+}
+.section-container{
+    margin: 0%;
+    padding: 0%;
+    border: 0px;
+    gap: 15px;
+    width: 100%;
+    display:flex;
+}
+aside{
+    margin: 0%;
+    padding: 20px;
+    border-radius: 20px;
+    width: 20%;
+    height: 390px;
+    background-color:black ;
+}
+.aside-container{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.aside-container-button{
+    margin: 40px 0px 40px 0px;
+    padding: 10px;
+    background-color: white;
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.aside-container-button-3{
+    margin: 40px 0px 40px 0px;
+    padding: 10px;
+    background-color: rgb(255, 1, 1);
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+/*-------------------------------------------------------------------------------------------*/
+article{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    border-radius: 20px;
+}
+.blogs{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.blog{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    border: 2px solid rgb(246, 248, 248);
+}
+img{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 100%;
+}
+.blog-info{
+    margin: 10px 0px 0px 0px;
+    padding:  15px;
+    width: 100%;
+   
+}
+.blog-info button{
+    margin: 0px;
+    padding: 5px 15px 5px 15px;
+    border-radius:  5px;
+}
+p{
+    width: 100%;
+}
+.blog-details{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    width: 50%;
+    height: 250px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.blog-icons{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+#icon-1{
+    align-items: center;
+    gap: 10px;
+    width: 40%;
+    display: flex;
+    gap: 15px;
+    position: relative;
+}
+#icon-2{
+    align-items: center;
+    gap: 10px;
+    width: 40%;
+    display: flex;
+    gap: 15px;
+}
+
+ .view-button{
+    display: block;
+    visibility: hidden;
+ }
+/*----------------------------------------------Footer -------------------------------------------------------*/
+.footer-container{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+hr{
+    margin: 0px 100px 0px 100px;
+}
+h2{
+    margin:  0px 50px 50px 50px;
+    padding: 75px 25px 25px 25px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+.footer-container-2{
+    margin: 50px 50px 0px 50px;
+    padding: 0px 25px 100px 25px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+
+}
+/*----------------------Style for First Website end-------------------------------------*/
+
+/*----------------------Style for Second Website start-------------------------------------*/
+
+/*-------------------------------------------blog img --------------------------------*/
+
+.aside-container-button-11{
+    margin: 40px 0px 40px 0px;
+    padding: 10px;
+    background-color: rgb(255, 1, 1);
+    width: 90%;
+    height: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.blogs-two{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px ;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.blog-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px;
+    padding: 35px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    gap: 10px;
+}
+.blog-flag{
+    display: flex;
+    flex-direction: row;
+
+}
+.flag-img{
+    width: 100%;
+    height: 100%;
+}
+.vs{
+    margin: 10px;
+    padding: 10px;
+}
+h5{
+    margin: 0px;
+    padding: 0px;
+    color: black;
+    font-size: 20px;
+    align-items: center;
+}
+.blog-inf{
+    margin: 0px;
+    padding: 10px;
+    border: 0px;
+    font-size: 15px;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+}
+/*----------------------Style for Second Website end-------------------------------------*/
+/* ----------------------------------Media Queries-----------------------------------------------*/
+    /*---------------------------Small Devices----------------------------*/
+@media screen and (max-width:576px) {
+    main{
+        margin: 50px 0px;
+          
+      }
+      h1{
+        margin-top: 90px;
+        position: relative;
+    }
+    .paragraph{
+        display:flex;
+        justify-content: center;
+    }
+    .header-div{
+        margin: 0px;
+        padding: 20px;
+        border: 0px;
+        border-radius: 30px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color:black;
+        display:grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .banner-div{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }  
+    .banner-part1{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        color: white;
+        font-weight: 700;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+    }
+    .banner-part2 img{
+        width: 100%;
+        height: 100%;
+    }
+    /*-----------------------------*/
+    .main-container{
+        margin: 50px 0px 0px 0px;
+        padding: 0px;
+        border: 0px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    aside{
+       
+        padding: 20px;
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        background-color:black ;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .aside-continer{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .section-container{
+        margin: 0%;
+        padding: 0%;
+        border: 0px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    /*-----------------blog media-----------------------*/
+    article{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        border-radius: 20px;
+    }
+    .blogs{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    /*---------------------------------------*/
+    .footer-container{
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+    }
+    hr{
+        margin: 0px 100px 0px 100px;
+    }
+    h2{
+        margin:  50px 50px 50px 50px;
+        padding:  100px 75px 75px 75px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-weight: 400;
+        font-size: 100px;
+    }
+    .footer-container-2{
+        margin: 50px 50px 0px 50px;
+        padding: 0px 25px 100px 25px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-container-2 div{
+        padding: 10px;
+    }
+    .view-button{
+        visibility: visible;
+        display:flex;
+        justify-content: center;
+    }
+    .view{
+        margin: 10px;
+        border:0px;
+        border-radius: 5px;
+        padding: 15px;
+        color: white;
+        background-color: red;
+        width: 120px;
+        text-align: center;
+        position: relative;
+        text-decoration: none;
+    }
+    /*--------------------------for second website-------------------------*/
+    .blogs-two{
+        margin: 0px;
+        padding: 0px;
+        border-radius: 10px ;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    
+}
+/*-----------------------For table------------------------------*/
+@media screen and (max-width:992px) and (min-width:577px) {
+    main{
+        margin: 50px 0px;    
+      }
+      h1{
+        margin-top: 90px;
+        position: relative;
+    }
+    .paragraph{
+        display:flex;
+        justify-content: center;
+    }
+    .header-div{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        border-radius: 30px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color:black;
+        display:grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+    .banner-div{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }  
+    .banner-part1{
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+        margin: 0px;
+        color: white;
+        font-weight: 700;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+    }
+    .banner-part2{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .banner-part2 img{
+        width: 100%;
+        height: 100%;
+    }
+    /*-----------------------------*/
+    .main-container{
+        margin: 50px 0px 0px 0px;
+        padding: 0px;
+        border: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-container{
+        margin: 0%;
+        padding: 0%;
+        border: 0px;
+        gap: 15px;
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+    }
+    aside{
+       
+        padding: 0px;
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        background-color:black ;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    } 
+    .aside-container{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    /*-----------------blog media-----------------------*/
+    article{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        border-radius: 20px;
+    }
+    .blogs{
+        margin: 0px;
+        padding: 0px;
+        border: 0px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .blog-info{
+        margin: 10px 0px 0px 0px;
+        padding:  15px;
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+    }
+    /*---------------------------------------*/
+    .footer-container{
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+    }
+    hr{
+        margin: 0px 100px 0px 100px;
+    }
+    h2{
+        margin:  50px 50px 50px 50px;
+        padding:  100px 75px 75px 75px;
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-weight: 400;
+        font-size: 100px;
+    }
+    .footer-container-2{
+        margin: 50px 50px 0px 50px;
+        padding: 0px 25px 100px 25px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-container-2 div{
+        padding: 10px;
+    }
+    .view-button{
+        visibility: visible;
+        display:flex;
+        justify-content: center;
+    }
+    /*--------------------------for second website-------------------------*/
+    .blogs-two{
+        margin: 0px;
+        padding: 0px;
+        border-radius: 10px ;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+}
